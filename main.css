@@ -1,0 +1,71 @@
+header{
+    background-image: url("munder.jpg");
+    background-size: cover;
+    padding: 15%;
+    
+
+}
+a{
+    color: aliceblue;
+}
+a:hover{
+    color: blue;
+}
+#first {
+    height: 150px; width: 200px;
+}
+h1 {
+    text-align: center; font-family: 'Courier New', Courier, monospace;
+    font-size: 40px; color:wheat;
+}
+nav{
+    background-color: black; padding: 30px;
+    
+}
+form label{
+    color: aliceblue;
+}
+form{
+    float: right;
+}
+a{
+    padding: 20px; font-size: px;
+    
+}
+#firstDive img {
+    height: 200px; width: 200px;
+    margin: 5px;
+}
+#firstDive:hover{
+    animation: flash 3s  infinite;
+    animation-direction: alternate;
+}
+.try {
+    animation: show 3s infinite;
+    
+}
+#seconddiv {
+    opacity: 0;
+}
+
+#seconddiv img{
+    height: 100px; width: 120px;
+    
+
+}
+button {
+
+height: 30px; width: 150px;
+}
+#btn{
+    margin-left : 500px;
+
+}
+@keyframes flash{
+    from{background-color: blueviolet;}
+    to {  background-color:black; left:200px;top:0px}
+}
+@keyframes show{
+    from{opacity: 1;}
+    to{ background-color: blue;}
+}
